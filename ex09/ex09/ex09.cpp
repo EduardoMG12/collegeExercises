@@ -14,12 +14,12 @@ int main()
     }
     
     if (number[0] > number[1] && number[0] > number[2]) {
-        printf("Os numeros sao: %d, %d, %d \n O maior valpor e: %d", number[0], number[1], number[2], number[0]);
+        printf("Os numeros sao: %d, %d, %d \n O maior valor e: %d", number[0], number[1], number[2], number[0]);
     }
     else if (number[1] > number[0] && number[1] > number[2]) {
-        printf("Os numeros sao: %d, %d, %d \n O maior valpor e: %d", number[0], number[1], number[2], number[1]);
+        printf("Os numeros sao: %d, %d, %d \n O maior valor e: %d", number[0], number[1], number[2], number[1]);
     }
-    else printf("Os numeros sao: %d, %d, %d \n  O maior valpor e: %d", number[0], number[1], number[2], number[2]);
+    else printf("Os numeros sao: %d, %d, %d \n  O maior valor e: %d", number[0], number[1], number[2], number[2]);
 
 
 }
