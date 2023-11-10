@@ -1,0 +1,5 @@
+﻿  ex18.cpp
+C:\c++codes\ex18\ex18\ex18.cpp(13,16): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\c++codes\ex18\ex18\ex18.cpp(16,17): warning C4305: '+=': truncamento de 'double' para 'float'
+C:\c++codes\ex18\ex18\ex18.cpp(17,18): warning C4305: '+=': truncamento de 'double' para 'float'
+  ex18.vcxproj -> C:\c++codes\ex18\x64\Debug\ex18.exe
