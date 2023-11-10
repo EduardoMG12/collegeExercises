@@ -6,6 +6,8 @@
 // infantil B = 8 - 10 anos
 // juvenil A = 11 - 13 anos
 // juvenil B = 14 - 17 anos
+// sênior = maiores de 17 anos
+
 
 
 #include <iostream>
@@ -30,6 +32,9 @@ int main()
 	}
 	else if (yearsOld >= 14 && yearsOld <= 17) {
 		printf("Com a sua idade de %d,\nvoce se enquadra na categoria: Juvenil B", yearsOld);
+	}
+	else if (yearsOld >= 17) {
+		printf("Com a sua idade de %d,\nvoce se enquadra na categoria: Senior", yearsOld);
 	}
 	else {
 		printf("Com a sua idade de %d,\nNao consegui achar a sua categoria no sistema!!", yearsOld);
