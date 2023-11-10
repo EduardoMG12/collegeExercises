@@ -1,0 +1,4 @@
+﻿  ex19.cpp
+C:\c++codes\ex19\ex19\ex19.cpp(14,14): warning C4476: 'printf': tipo desconhecido de caractere de campo '=' no especificador de formato
+C:\c++codes\ex19\ex19\ex19.cpp(15,22): warning C4305: '*=': truncamento de 'double' para 'float'
+  ex19.vcxproj -> C:\c++codes\ex19\x64\Debug\ex19.exe

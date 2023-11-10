@@ -1,11 +1,23 @@
 // ex19.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-//
+// Fulano aplicou R$ 100,00 com rendimento de 5% ao mês. Quantos meses serão necessários para o
+// capital investido ultrapasse a R$ 200, 00.
+
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    float aport = 100.0;
+    int month = 1;
+
+    while(aport<200){
+      printf("mes: %d\n %.2f * 5% = %.2f\n", month, aport, aport * 1.05);
+        aport *= 1.05;
+        if (aport < 200) month++;
+
+    }
+    printf("mes: %d", month);
+
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
