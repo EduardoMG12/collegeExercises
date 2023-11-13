@@ -1,0 +1,5 @@
+﻿  ex20.cpp
+C:\c++codes\ex20\ex20\ex20.cpp(15,16): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\c++codes\ex20\ex20\ex20.cpp(20,29): warning C4305: '-=': truncamento de 'double' para 'float'
+C:\c++codes\ex20\ex20\ex20.cpp(22,43): warning C4244: '-=': conversão de 'double' para 'float', possível perda de dados
+  ex20.vcxproj -> C:\c++codes\ex20\x64\Debug\ex20.exe
