@@ -1,0 +1,9 @@
+﻿  ex25.cpp
+C:\c++codes\ex25\ex25\ex25.cpp(13,10): error C2280: 'main::Book::Book(void)': tentando referenciar uma função excluída
+C:\c++codes\ex25\ex25\ex25.cpp(12,5): message : o compilador gerou 'main::Book::Book' aqui
+C:\c++codes\ex25\ex25\ex25.cpp(12,5): message : 'main::Book::Book(void)': a função foi implicitamente excluída porque 'main::Book' tem um membro de dados 'main::Book::publishYear' qualificado como const não inicializado
+C:\c++codes\ex25\ex25\ex25.cpp(11,36): message : consulte a declaração de 'main::Book::publishYear'
+C:\c++codes\ex25\ex25\ex25.cpp(16,31): error C2440: '=': não é possível converter de 'const char [29]' para 'const char'
+C:\c++codes\ex25\ex25\ex25.cpp(16,31): message : Não há contexto no qual esta conversão seja possível
+C:\c++codes\ex25\ex25\ex25.cpp(17,36): error C2440: '=': não é possível converter de 'const char [5]' para 'const char'
+C:\c++codes\ex25\ex25\ex25.cpp(17,36): message : Não há contexto no qual esta conversão seja possível
