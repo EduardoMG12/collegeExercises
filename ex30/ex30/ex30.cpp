@@ -6,8 +6,6 @@
 
 #include <iostream>
 
-int main()
-{
 	struct Student {
 		char name[120];
 		int yearBirthday;
@@ -28,6 +26,8 @@ int main()
 		Discipline diciplineCoursed[10];
 	
   };
+int main()
+{
 
 }
 
